@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tinyone</title>
+    <!--             Font           -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <!--             Reset CSS           -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--             Responsive CSS           -->
+    <link rel="stylesheet" href="./css/mobile-default.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <!--             javascript           -->
+    <script type="text/javascript" src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="header-main row">
+          <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+          </div>
+          <div class="nav">
+            <div class="alignment">
+              <a href="#Home">Home</a>
+              <a href="#Service">Service</a>
+              <a href="#Team">Team</a>
+              <a href="#Portfolio">Portfolio</a>
+              <a href="#Contact">Contact</a>
+            </div>
+          </div>
+          <header class="header">
+            <img src="./images/logo.png" class="logo" alt="logo">
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Service">Service</a></li>
+              <li><a href="#Team">Team</a></li>
+              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </header>
+        </div>
+        <div class="carousel row">
+          <ul>
+            <li id="1" class="hideable" style="display: block;"><img src="./images/slide1.jpg" alt="img" /></li>
+            <li id="2" class="hideable"><img src="./images/slide2.jpg" alt="img" /></li>
+            <li id="3" class="hideable"><img src="./images/slide3.jpg" alt="img" /></li>
+          </ul>
+          <a id="forward-arrow" onclick="toggleSlide(true)"></a>
+          <a id="backward-arrow" onclick="toggleSlide(false)"></a>
+          <a id="downward-arrow" href="#inner-container" ></a>
+          <div class="carousel-text">
+            <div class="tinyone-features row sign">
+              <h1>Inspire your inspiration</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+              <button type="submit" name="button">LOREM IPSUM</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="inner-container" id="inner-container">
+        <div class="main-content">
+          <section>
+            <div class="tinyone-features row">
+              <h1>Tinyone features</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+            </div>
+            <div class="features row">
+              <div class="feature">
+                <div class="icon">
+                  <img src="./images/feature1.png" alt="feature">
+                </div>
+                <div class="details">
+                  <h1>Fully Responsive</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <img src="./images/feature2.png" alt="feature">
+                </div>
+                <div class="details">
+                  <h1>Fully Layered PSD</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <img src="./images/feature3.png" alt="feature">
+                </div>
+                <div class="details">
+                  <h1>Font Awesome Icons</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <img src="./images/feature4.png" alt="feature">
+                </div>
+                <div class="details">
+                  <h1>HTML5 & CSS3</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <img src="./images/feature5.png" alt="feature">
+                </div>
+                <div class="details">
+                  <h1>Email Templates</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <img src="./images/feature6.png" alt="feature">
+                </div>
+                <div class="details">
+                  <h1>Free to Download</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="team-members tinyone-features row">
+              <h1>Our Team</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+            </div>
+            <div class="members row">
+              <div class="member">
+                <div class="profil">
+                  <img src="./images/member1.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>John Doe</h1>
+                  <p>UI Designer</p>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                  <div class="icons">
+                    <a class="facebook" href=""></a>
+                    <a class="twitter" href=""></a>
+                    <a class="linkdin" href=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="member">
+                <div class="profil">
+                  <img src="./images/member2.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>John Doe</h1>
+                  <p>UI Designer</p>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                  <div class="icons">
+                    <a class="facebook" href=""></a>
+                    <a class="twitter" href=""></a>
+                    <a class="linkdin" href=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="member">
+                <div class="profil">
+                  <img src="./images/member3.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>John Doe</h1>
+                  <p>UI Designer</p>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                  <div class="icons">
+                    <a class="facebook" href=""></a>
+                    <a class="twitter" href=""></a>
+                    <a class="linkdin" href=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="member">
+                <div class="profil">
+                  <img src="./images/member4.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>John Doe</h1>
+                  <p>UI Designer</p>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                  <div class="icons">
+                    <a class="facebook" href=""></a>
+                    <a class="twitter" href=""></a>
+                    <a class="linkdin" href=""></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="Stat-testimonial tinyone-features row">
+              <h1>Stats & Testimonial</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+            </div>
+            <div class="stats row">
+              <div class="stat">
+                <div class="imo">
+                  <img src="./images/imo1.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>20</h1>
+                  <p>Products</p>
+                </div>
+              </div>
+              <div class="stat">
+                <div class="imo">
+                  <img src="./images/imo2.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>120,000</h1>
+                  <p>Downloads</p>
+                </div>
+              </div>
+              <div class="stat">
+                <div class="imo">
+                  <img src="./images/imo3.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>1200</h1>
+                  <p>Customers</p>
+                </div>
+              </div>
+              <div class="stat">
+                <div class="imo">
+                  <img src="./images/imo4.png" alt="member">
+                </div>
+                <div class="details">
+                  <h1>900</h1>
+                  <p>Likes</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="central">
+              <img src="./images/member1.png" alt="img">
+              <h1>John Doe</h1>
+              <p>From Wôrdpress</p>
+            </div>
+            <div class="quote">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum. Donec
+                rutrum sed sem quis venenatis.</p>
+                <img id="start" src="./images/start.png" alt="start">
+                <img id="end" src="./images/end.png" alt="end">
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="icons">
+          <a class="wfacebook" href=""></a>
+          <a class="wtwitter" href=""></a>
+          <a class="g-plus" href=""></a>
+          <a class="pinterest" href=""></a>
+        </div>
+        <div class="sign-up tinyone-features row">
+          <h1>Sign up for our newsletter</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        </div>
+        <div class="sign row">
+          <input type="text" placeholder="Enter your email to update" name="email">
+          <button type="submit" name="button">SUBMIT</button>
+        </div>
+        <div class="footer-end">
+          <div class="container">
+            <div class="address">
+              <address>
+                HALOVIETNAM LTD
+                66, Dang Van ngu, Dong Da
+                Hanoi, Vietnam
+                <a href="mailto:contact@halovietnam.com">contact@halovietnam.com</a>
+                <a class="not-active" href="tel:+844 35149182">+844 35149182</a>
+              </address>
+            </div>
+            <div class="links">
+              <a href="#">Example</a>
+              <a href="#">Shop</a>
+              <a href="#">License</a>
+            </div>
+            <div class="links">
+              <a href="#">Contact</a>
+              <a href="#">About</a>
+              <a href="#">Privacy</a>
+              <a href="#">Terms</a>
+            </div>
+            <div class="links">
+              <a href="#">Download</a>
+              <a href="#">Support</a>
+              <a href="#">Download</a>
+            </div>
+            <div class="links">
+              <a href="#">Media</a>
+              <a href="#">Blog</a>
+              <a href="#">Forums</a>
+            </div>
+            <button id="totop" href="#" onclick="smoothUp()"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1139px){
+    .header-main{
+      height: 120px;;
+    }
+    .header{
+      display: none;
+    }
+    .logo {
+      display: block;
+      height: 50%;
+      position: absolute;
+      top: 25%;
+      width: 50%;
+    }
+    .logo img {
+      display: block;
+      margin: auto;
+    }
+    .nav {
+      display: block;
+      float: right;
+      height: 100%;
+      position: relative;
+      width: 50%;
+    }
+    .alignment {
+      height: 50%;
+      left: 10%;
+      position: absolute;
+      top: 25%;
+      width: 80%;
+    }
+    .nav a {
+      color: #000;
+      float: left;
+      line-height: 3;
+      text-decoration: none;
+      text-align: center;
+      width: 20%;
+    }
+    .nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .inner-container {
+      width: 100%;
+    }
+    .inner-container section:first-child{
+      padding: 1em;
+    }
+    .feature{
+      margin: 0;
+      width:33.33%;
+    }
+    .member {
+      width: 50%;
+    }
+    .stat {
+      width: 25%;
+    }
+    .central {
+      width: 30%;
+    }
+    .quote p {
+      margin: 0 4em 5em 4em;
+    }
+    .sign-up p {
+      padding: 0 14em 0 14em;
+    }
+    .sign input {
+      width: 43%;
+    }
+    .sign button {
+      width: 12%;
+    }
+    .carousel-text {
+      height: 40%;
+      left: 20%;
+      top: 20%;
+      width: 60%;
+    }
+    .carousel-text .tinyone-features p {
+      color: #000;
+      display: block;
+      font-weight: 500;
+      font-size: 100%;
+    }
+    .carousel-text .tinyone-features h1 {
+      font-size: 250%;
+    }
+    .carousel-text .tinyone-features button {
+      font-weight: 900;
+      width: 40%;
+    }
+    .footer-end {
+      width: 100%;
+      margin: 2em 0 6em 0;
+    }
+    .footer-end .container {
+      width: 80%;
+    }
+    .address {
+      padding: 0 2.25em 0 2.25em;
+      text-align: center;
+      width: 28%;
+    }
+    .links {
+      text-align: center;
+      width: 18%;
+    }
+}
